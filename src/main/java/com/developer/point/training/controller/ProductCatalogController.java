@@ -1,5 +1,7 @@
 package com.developer.point.training.controller;
 
+import static com.developer.point.training.constant.ProductCatalogSearchConstant.PRODUCT_NOT_FOUND;
+
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -13,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.developer.point.training.entity.Products;
 import com.developer.point.training.exception.ProductNotfoundException;
 import com.developer.point.training.service.ProductCatalogService;
-import static com.developer.point.training.constant.ProductCatalogSearchConstant.PRODUCT_NOT_FOUND;
 
 /**
  * @author rahul
@@ -68,6 +69,7 @@ public class ProductCatalogController {
 		 {
 		List<Products> products = productCatalogService.findByNameAndSize(name, size);
 		if (products.isEmpty()) {
+			logger.info("product not found for product {} and size  {} ",  name ,size );
 			throw new ProductNotfoundException(PRODUCT_NOT_FOUND);
 		}
 		return products;

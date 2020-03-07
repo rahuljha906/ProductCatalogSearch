@@ -1,0 +1,314 @@
+"2020-03-07 22:43:37 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 22:43:37 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 JPA repository interfaces.
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 22:43:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 22:43:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 22:43:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 308 ms
+""2020-03-07 22:43:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-53 - Starting...
+""2020-03-07 22:43:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-53 - Start completed.
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 22:43:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 22:43:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 22:43:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 22:43:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 22:43:38 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.535 seconds (JVM running for 81022.408)
+""2020-03-07 22:43:38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 22:45:40 [Thread-372] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 22:45:40 [Thread-372] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 22:45:40 [Thread-372] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 22:45:40 [Thread-372] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 22:45:40 [Thread-372] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-53 - Shutdown initiated...
+""2020-03-07 22:45:40 [Thread-372] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-53 - Shutdown completed.
+""2020-03-07 22:45:40 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 22:45:40 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 22:45:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 22:45:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 22:45:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 266 ms
+""2020-03-07 22:45:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-54 - Starting...
+""2020-03-07 22:45:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-54 - Start completed.
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 22:45:41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 22:45:41 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 22:45:41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 22:45:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 22:45:41 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.469 seconds (JVM running for 81145.418)
+""2020-03-07 22:45:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 22:55:50 [Thread-379] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 22:55:50 [Thread-379] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 22:55:50 [Thread-379] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 22:55:50 [Thread-379] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 22:55:50 [Thread-379] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-54 - Shutdown initiated...
+""2020-03-07 22:55:50 [Thread-379] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-54 - Shutdown completed.
+""2020-03-07 22:55:51 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 22:55:51 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 22:55:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 22:55:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 22:55:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 292 ms
+""2020-03-07 22:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-55 - Starting...
+""2020-03-07 22:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-55 - Start completed.
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 22:55:51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 22:55:51 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 22:55:51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 22:55:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 22:55:51 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.504 seconds (JVM running for 81755.851)
+""2020-03-07 22:55:51 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:06:49 [Thread-386] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:06:49 [Thread-386] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:06:49 [Thread-386] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:06:49 [Thread-386] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:06:49 [Thread-386] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-55 - Shutdown initiated...
+""2020-03-07 23:06:49 [Thread-386] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-55 - Shutdown completed.
+""2020-03-07 23:10:20 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:10:20 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:10:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:10:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:10:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 432 ms
+""2020-03-07 23:10:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-57 - Starting...
+""2020-03-07 23:10:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-57 - Start completed.
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:10:21 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:10:21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:10:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:10:21 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:10:21 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.666 seconds (JVM running for 82625.604)
+""2020-03-07 23:10:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:12:38 [Thread-393] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:12:38 [Thread-393] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:12:38 [Thread-393] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:12:39 [Thread-393] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:12:39 [Thread-393] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-57 - Shutdown initiated...
+""2020-03-07 23:12:39 [Thread-393] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-57 - Shutdown completed.
+""2020-03-07 23:12:39 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:12:39 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:12:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:12:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:12:39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:12:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:12:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:12:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:12:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:12:39 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 317 ms
+""2020-03-07 23:12:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-58 - Starting...
+""2020-03-07 23:12:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-58 - Start completed.
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:12:40 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:12:40 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:12:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:12:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:12:40 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.582 seconds (JVM running for 82764.229)
+""2020-03-07 23:12:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:13:07 [Thread-406] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:13:07 [Thread-406] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:13:07 [Thread-406] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:13:07 [Thread-406] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:13:07 [Thread-406] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-58 - Shutdown initiated...
+""2020-03-07 23:13:07 [Thread-406] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-58 - Shutdown completed.
+""2020-03-07 23:13:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:13:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:13:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:13:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:13:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 292 ms
+""2020-03-07 23:13:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-59 - Starting...
+""2020-03-07 23:13:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-59 - Start completed.
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:13:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:13:08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:13:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:13:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:13:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.535 seconds (JVM running for 82792.706)
+""2020-03-07 23:13:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:13:27 [Thread-413] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:13:27 [Thread-413] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:13:27 [Thread-413] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:13:27 [Thread-413] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:13:27 [Thread-413] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-59 - Shutdown initiated...
+""2020-03-07 23:13:27 [Thread-413] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-59 - Shutdown completed.
+""2020-03-07 23:13:27 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:13:27 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:13:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:13:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:13:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 312 ms
+""2020-03-07 23:13:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-60 - Starting...
+""2020-03-07 23:13:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-60 - Start completed.
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:13:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:13:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:13:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:13:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:13:28 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.541 seconds (JVM running for 82812.471)
+""2020-03-07 23:13:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:14:41 [Thread-420] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:14:41 [Thread-420] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:14:41 [Thread-420] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:14:41 [Thread-420] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:14:41 [Thread-420] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-60 - Shutdown initiated...
+""2020-03-07 23:14:41 [Thread-420] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-60 - Shutdown completed.
+""2020-03-07 23:14:47 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:14:47 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:14:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:14:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:14:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:14:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:14:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:14:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1604 ms
+""2020-03-07 23:14:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-62 - Starting...
+""2020-03-07 23:14:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-62 - Start completed.
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:14:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:14:49 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:14:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:14:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:14:49 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 1.883 seconds (JVM running for 82893.732)
+""2020-03-07 23:14:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:15:07 [Thread-427] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:15:07 [Thread-427] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:15:07 [Thread-427] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:15:07 [Thread-427] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:15:07 [Thread-427] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-62 - Shutdown initiated...
+""2020-03-07 23:15:07 [Thread-427] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-62 - Shutdown completed.
+""2020-03-07 23:15:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:15:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:15:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:15:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:15:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 269 ms
+""2020-03-07 23:15:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-63 - Starting...
+""2020-03-07 23:15:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-63 - Start completed.
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:15:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:15:08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:15:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:15:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:15:08 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.485 seconds (JVM running for 82912.569)
+""2020-03-07 23:15:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:15:30 [Thread-438] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:15:30 [Thread-438] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:15:30 [Thread-438] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:15:30 [Thread-438] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:15:30 [Thread-438] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-63 - Shutdown initiated...
+""2020-03-07 23:15:30 [Thread-438] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-63 - Shutdown completed.
+""2020-03-07 23:15:31 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:15:31 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:15:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:15:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:15:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 329 ms
+""2020-03-07 23:15:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-64 - Starting...
+""2020-03-07 23:15:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-64 - Start completed.
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:15:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:15:31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:15:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:15:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:15:31 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.863 seconds (JVM running for 82935.959)
+""2020-03-07 23:15:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-03-07 23:15:59 [Thread-445] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:15:59 [Thread-445] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:15:59 [Thread-445] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-03-07 23:15:59 [Thread-445] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2020-03-07 23:15:59 [Thread-445] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-64 - Shutdown initiated...
+""2020-03-07 23:15:59 [Thread-445] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-64 - Shutdown completed.
+""2020-03-07 23:16:00 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Starting ProductCatalogSearchApplication on DESKTOP-CVAQG54 with PID 8172 (A:\workspace\ProductCatalogSearch\target\classes started by rahul in A:\workspace\ProductCatalogSearch)
+""2020-03-07 23:16:00 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - No active profile set, falling back to default profiles: default
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9022 (http)
+""2020-03-07 23:16:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-03-07 23:16:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-03-07 23:16:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 258 ms
+""2020-03-07 23:16:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-65 - Starting...
+""2020-03-07 23:16:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-65 - Start completed.
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fdb'
+""2020-03-07 23:16:00 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-07 23:16:00 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-03-07 23:16:00 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-03-07 23:16:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9022 (http) with context path ''
+""2020-03-07 23:16:00 [restartedMain] INFO  c.d.p.t.ProductCatalogSearchApplication - Started ProductCatalogSearchApplication in 0.475 seconds (JVM running for 82964.925)
+""2020-03-07 23:16:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+"

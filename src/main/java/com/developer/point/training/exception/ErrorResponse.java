@@ -1,7 +1,5 @@
 package com.developer.point.training.exception;
 
-import java.util.List;
- 
 /**
  * @author rahul
  *
